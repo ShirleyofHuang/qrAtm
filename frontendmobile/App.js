@@ -1,19 +1,33 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Navigator} from 'react-native';
+import FixedHeader from './header';
+import {StackNavigator} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation';
 
-export default function App() {
+export default class App extends React.Component{
+  render(){
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View>
+      {/* <Text>Open up App.js to start working on your app!</Text> */}
+      <FixedHeader></FixedHeader>
+      {/* <Navigator initialRoute={{id:'Home'}}
+        renderScene = {this.navigatorRenderScene} /> */}
     </View>
   );
 }
+}
+
+export default createStackNavigator({
+  Login: {
+    screen: LoginScreen
+  }
+})
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    display: 'flex',
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'top',
   },
 });
