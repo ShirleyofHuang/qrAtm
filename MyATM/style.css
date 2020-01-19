@@ -1,0 +1,141 @@
+body {
+    background: rgb(97, 97, 97);
+    width: 100%;
+    height: 100%;
+}
+
+#screen {
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 350px;
+    width: 850px;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    padding-bottom: 10px;
+}
+
+#dispenser {
+    background: rgb(0, 0, 0);
+    border-radius: 25px;
+    height: 30px;
+    width: 850px;
+    margin: 0;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.button1 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.button2 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.button3 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.button4 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+.button5 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.button6 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+.button7 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+.button8 {
+    background: slateblue;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top: 65%;
+    right: 5%;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#QR {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 700px;
+    border: 0;
+    border-bottom: 2px solid rgb(61, 61, 61);
+    font-size: 1.3rem;
+    color: black;
+    background: transparent;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 300px;
+    outline: none;
+}
+
+#qr-div {
+    width: 150px;
+    margin: auto;
+}
