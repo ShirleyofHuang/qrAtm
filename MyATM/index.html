@@ -9,27 +9,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="button1"><br></div>
-    <div class="button2"><br></div>
-    <div class="button3"><br></div>
-    <div class="button4"><br></div>
-    <div id="screen">
-        <p>Please scan your QR code:</p>
-        <div id="qr-div"> <img src="code-reader2.jfif" alt="QR code" id="QR"></div>
-        <input type="input" class="form__field" placeholder="QR String" name="name" id='name' />
+    <div class="container">
+        <div id="screen">
+            <p>Please scan your QR code:</p>
+            <div id="qr-div">
+                <img id="qr" src="code-reader2.jfif" alt="QR code">
+            </div>
+            <input type="input" class="form__field" placeholder="QR String" name="name" id='name' />
+        </div>
     </div>
-    <button class="button5" onclick="myFunction()"> </button>
+    <button class="button" id="button5" onclick="myFunction()"></button>
     <script>
         function myFunction() {
             alert("You have withdrawn $");
         }
     </script>
-    <div class="button6"><br></div>
-    <div class="button7"><br></div>
-    <div class="button8"><br></div>
+    
+    <button class="button" id="button1"></button>
+    <button class="button" id="button2"></button>
+    <button class="button" id="button3"></button>
+    <button class="button" id="button4"></button>
+    <button class="button" id="button6"></button>
+    <button class="button" id="button7"></button>
+    <button class="button" id="button8"></button>
+    
     <div id="dispenser"><br></div>
 </body>
 
