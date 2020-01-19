@@ -17,6 +17,38 @@ body {
     padding-bottom: 10px;
 }
 
+    p {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    #qr-div {
+        width: 150px;
+        margin: auto;
+    }
+
+        #QR {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+    .form__field {
+        font-family: "Montserrat", sans-serif;
+        width: 700px;
+        border: 0;
+        border-bottom: 2px solid rgb(61, 61, 61);
+        font-size: 1.3rem;
+        color: black;
+        background: transparent;
+        text-align: center;
+        position: absolute;
+        left: 70px;
+        top: 300px;
+        outline: none;
+    }
+
 #dispenser {
     background: rgb(0, 0, 0);
     border-radius: 25px;
@@ -109,35 +141,4 @@ body {
     position: absolute;
     top: 65%;
     right: 5%;
-}
-
-p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-#QR {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.form__field {
-    font-family: inherit;
-    width: 700px;
-    border: 0;
-    border-bottom: 2px solid rgb(61, 61, 61);
-    font-size: 1.3rem;
-    color: black;
-    background: transparent;
-    text-align: center;
-    position: absolute;
-    left: 70px;
-    top: 300px;
-    outline: none;
-}
-
-#qr-div {
-    width: 150px;
-    margin: auto;
 }
