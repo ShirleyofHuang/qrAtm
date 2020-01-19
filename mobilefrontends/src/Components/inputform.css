@@ -17,14 +17,18 @@ h2{
 }
 
 .widthdrawal{
-    background:#034f84;
+    background:white;
     position: center;
     
 }
 
-.inputAmount{
-    color: white;
+.input-section{
+    background: white;
 }
+
+/* .inputAmount{
+    color: white;
+} */
 
 .btn {
     margin-top: 10px;

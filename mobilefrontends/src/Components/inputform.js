@@ -6,8 +6,6 @@ import './inputform.css';
 import ModalExample from './modal';
 
 
-
-
 export class InputForm extends React.Component{
     state = { show: false };
 
@@ -32,12 +30,13 @@ export class InputForm extends React.Component{
             />
             <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'></link>
             </div>
-            <div>
+            <div class="input-section">
                 <br></br>
                 <br></br>
-                <h2>WIDTHDRAW MONEY</h2>
+                {/* <h2>WIDTHDRAW MONEY</h2> */}
             </div>
             <div class='column' className='widthdrawal'>
+            <h2>WIDTHDRAW MONEY</h2>
             <div class="col align-self-center">
             <form>
             <div class="d-flex justify-content-center">

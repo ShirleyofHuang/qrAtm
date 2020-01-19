@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ModalB from './modellogin';
 import {
   Collapse,
   Navbar,
@@ -49,18 +50,17 @@ export class Header extends React.Component{
             
             <div className="nav" class="nav">
                  <Navbar expand="md" fixed="top" position="fixed" id="nav" class="nav">
-                    <NavbarBrand class="navbarcontent" href="/"><h4 class="navbarcontent">CASHLESS</h4></NavbarBrand>
+                    <NavbarBrand class="navbarcontent" href="/"><h4 class="navbarcontent">QRurrency</h4></NavbarBrand>
                     <Nav className="mr-auto" class="navbar" navbar>
                         <NavItem>
-                        <NavLink class="navbarcontent"href="/components/"><h5 class="navbarcontent">WIDTHDRAW MONEY</h5></NavLink>
+                        <NavLink class="navbarcontent"href="/components/"><h5 class="navbarcontent">.WIDTHDRAW MONEY</h5></NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink class="navbarcontent"href="https://github.com/ShirleyOfHuang"><h5 class="navbarcontent">SEND MONEY</h5></NavLink>
+                        <NavLink class="navbarcontent"href="https://github.com/ShirleyOfHuang"><h5 class="navbarcontent">.SEND MONEY</h5></NavLink>
                         </NavItem>
                         
                     </Nav>
-                    <button class="btn btn-light" type="submit">LOGIN or SIGN UP</button> 
-                   
+                    <ModalB></ModalB>                   
                 </Navbar>
                 </div>
                 </div>

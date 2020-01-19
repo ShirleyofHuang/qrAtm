@@ -19,11 +19,12 @@ export class GiveMoney extends React.Component{
             </div>
             <div class='column' className='send'>
             <div class="col align-self-center">
+                <br></br>
                 <h2>SEND MONEY</h2>
             <form>
             <div class="d-flex justify-content-center">
                 <div class="row">
-                <label for="inputAmount" className="amountTransfer">
+                <label for="inputAmount" className="amount">
                     <br></br>
                     Enter Amount To Transfer
                     </label>

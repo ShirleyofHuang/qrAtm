@@ -7,7 +7,7 @@ import {InputForm} from './Components/inputform';
 import {GiveMoney} from './Components/givemoney';
 import {QRscanner} from './Components/qrscanner';
 import {Qread} from './Components/qrreader';
-
+import {Balance} from './Components/balance'
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
       <br></br>
       <br></br>
       <GiveMoney></GiveMoney>
+      <Balance></Balance>
       {/* <Qread></Qread> */}
       {/* <QRscanner></QRscanner> */}
     </div>
