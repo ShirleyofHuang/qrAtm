@@ -21,8 +21,19 @@
 .navbarcontent{
     color:white;
     font-size: small;
+    /* float: left; */
+}
+
+.smallerm{
+    width: 70%;
+    height:70%;
+    size: 5px;
 }
 
 NavLink{
     color: white;
+}
+
+.logo{
+    float: left;
 }

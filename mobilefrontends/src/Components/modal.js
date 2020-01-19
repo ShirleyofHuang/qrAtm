@@ -16,9 +16,9 @@ const ModalExample = (props) => {
 
   return (
     <div>
-      <Button color="light" onClick={toggle}>{buttonLabel}Create QR Code</Button>
+      <Button color="light" onClick={toggle}>{buttonLabel}{props.button}</Button>
       <Modal isOpen={modal} toggle={toggle} className={className}>
-        <ModalHeader toggle={toggle}>QR Code to Use at ATM</ModalHeader>
+        <ModalHeader toggle={toggle}>{props.message}</ModalHeader>
         <ModalBody>
             {/* <img src={fake} width='30%' height="30%"></img> */}
             <Qread value="123456789"></Qread>

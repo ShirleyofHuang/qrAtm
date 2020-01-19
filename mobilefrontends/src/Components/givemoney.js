@@ -2,6 +2,7 @@ import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 // import laptop from '../ParalaxPics/laptopcafe.jpg';
 import './givemoney.css';
+import ModalExample from './modal';
 
 export class GiveMoney extends React.Component{
 
@@ -36,7 +37,8 @@ export class GiveMoney extends React.Component{
                     Enter Person's Email
                     </label>
                 <input type="email" class="form-control" id="emailReceive" aria-describedby="emailHelp" placeholder="Enter Person's Email" />
-                <button class="btn btn-light" type="submit">Send QR Code</button>    
+                {/* <button class="btn btn-light" type="submit">Send QR Code</button>     */}
+                <ModalExample message='QR sent!' button='Send QR Code'></ModalExample>
                 
                 </div>
                 </div>

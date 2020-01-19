@@ -49,7 +49,7 @@ export class InputForm extends React.Component{
                 <br></br>
                 <br></br>
                 {/* <button class="btn btn-light" type="submit">Create QR code</button>     */}
-                <ModalExample></ModalExample>
+                <ModalExample message='Use This QR Code at the ATM' button='Get QR Code'></ModalExample>
                 </div>
                 
                 

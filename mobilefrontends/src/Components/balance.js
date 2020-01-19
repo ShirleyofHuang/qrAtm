@@ -23,7 +23,7 @@ import {
 
 export class Balance extends React.Component{
 
-    render(){
+    render(){  
         return (
             <div>
             <div className="Projects">

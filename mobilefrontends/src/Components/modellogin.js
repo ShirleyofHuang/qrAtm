@@ -13,6 +13,7 @@ const ModalB = (props) => {
 
   const toggle = () => setModal(!modal);
 
+
   return (
     <div>
       <Button color="light" onClick={toggle}>{buttonLabel}LOG IN or SIGN UP</Button>
@@ -40,7 +41,8 @@ const ModalB = (props) => {
                 </div>
                 </form>
                 <ModalFooter>
-                <Button color='secondary'>Log In</Button>
+                {/* {toggle === true ? (<Button color='secondary' onClick={toggle}>Log In</Button>) : (<h4>Logged In</h4>)} */}
+                <Button color='secondary' onClick={toggle}>Log In</Button>
                 </ModalFooter>
                 <hr></hr>
                 <br></br>
