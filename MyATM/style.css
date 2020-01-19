@@ -77,6 +77,8 @@ body {
     position: absolute;
     top: 20%;
     right: 5%;
+    outline: none;
+    border: none;
 }
 
 .button6 {
