@@ -59,7 +59,7 @@ export class Header extends React.Component{
                         </NavItem>
                         
                     </Nav>
-                    <NavbarText>LOG IN</NavbarText>
+                    <button class="btn btn-light" type="submit">LOGIN or SIGN UP</button> 
                    
                 </Navbar>
                 </div>

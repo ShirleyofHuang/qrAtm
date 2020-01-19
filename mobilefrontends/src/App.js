@@ -5,6 +5,8 @@ import {Header} from './Components/header';
 import {ParallaxPic} from './Components/parallaxpic';
 import {InputForm} from './Components/inputform';
 import {GiveMoney} from './Components/givemoney';
+import {QRscanner} from './Components/qrscanner';
+import {Qread} from './Components/qrreader';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <br></br>
       <br></br>
       <GiveMoney></GiveMoney>
+      {/* <Qread></Qread> */}
+      {/* <QRscanner></QRscanner> */}
     </div>
   );
 }
