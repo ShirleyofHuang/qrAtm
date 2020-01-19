@@ -36,10 +36,16 @@ const ModalB = (props) => {
                     Enter Password
                     </label>
                 <input type="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Enter Password" />
+                </div>
+                </div>
+                </form>
+                <ModalFooter>
+                <Button color='secondary'>Log In</Button>
+                </ModalFooter>
                 <hr></hr>
                 <br></br>
 
-                
+                <form>
                 <label for="username" className="username">
                 <h4>Sign Up</h4>
                 <br></br>
@@ -60,15 +66,14 @@ const ModalB = (props) => {
                     </label>
                 <input type="number" class="form-control" id="inputAmount" aria-describedby="emailHelp" placeholder="Enter Username" />
 
-                </div>
-                </div>
+                
         </form>
             {/* <img src={fake} width='30%' height="30%"></img> */}
           {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */}
         </ModalBody>
         <ModalFooter>
           {/* <Button color="primary" onClick={toggle}>Do Something</Button>{' '} */}
-          <Button color="secondary" onClick={toggle}>Close</Button>
+          <Button color="secondary" onClick={toggle}>Sign Up</Button>
         </ModalFooter>
       </Modal>
     </div>

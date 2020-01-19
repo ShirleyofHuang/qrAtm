@@ -2,6 +2,24 @@ import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 // import laptop from '../ParalaxPics/laptopcafe.jpg';
 import './balance.css';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
+    NavbarText,
+    UncontrolledCollapse,
+    Button,
+    Card, 
+    CardBody
+  } from 'reactstrap';
 
 export class Balance extends React.Component{
 
@@ -18,22 +36,28 @@ export class Balance extends React.Component{
             <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'></link>
             </div>
             <div class='column' className='balance'>
-            <div class="col align-self-center">
+           
+            <div>
                 <br></br>
                 <h2>MY BALANCE</h2>
+                        <Button color="secondary" id="toggler1" style={{ marginBottom: '1rem' }}>
+                        Show Me the Money!
+                        </Button>
+                        <UncontrolledCollapse toggler="#toggler1">
+                        <Card>
+                            <CardBody>
+                           1234567
+                            </CardBody>
+                        </Card>
+                        </UncontrolledCollapse>
+                        <br>
+                        </br>
+                        <br>
+                        </br>
+                    </div>
+           
             </div>
-            <p>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Button with data-target
-        </button>
-        </p>
-        <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-        </div>
             </div>
-            </div>
-        )
+        );
     }
 }
